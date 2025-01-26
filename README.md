@@ -4,6 +4,7 @@
 A small, single-include library to draw a customizable timeline inside of an ImGUI window. 
 
 My goal was to create an easy-to-use timeline API that should feel right at home when you know how ImGUI works, and which can be extended and customized to enable more complex scenarios.
+<img width="1078" alt="Screenshot 2025-01-27 at 1 28 08" src="https://github.com/user-attachments/assets/a4f5e131-1ce1-4cb0-aabc-4757ef03088c" />
 
 ## Features:
 * Adding, deleting, moving nodes with drag & drop, undo & redo functionality
@@ -125,13 +126,6 @@ Both the way data is handled, the node UI and individual nodes can be customized
 * Requires C++ 17
 * Made on top of ImGUI v1.91.0, but it's likely compatible with older ImGUI versions too.
 * Compatibility tested under Mac OSX, Windows 10
+* ImGUI and its back-end is not included for now. You will need to connect this yourself for the time being.
 * January 2025
 * Dev Blog: https://immersivenick.wordpress.com/ 
-
-
-Blog post stuff:
-
-- Things I dont like about ImGui:
-* Immediate so data that could get cached gets recreated every frame
-* All source is in one giant header
-* There is a split between public and internal source, but the end user always sees both when using intellisense/code-completion, as the logic of hoth files reside in the same namespacee
