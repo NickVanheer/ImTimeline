@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
-#include "../TimelineCore/TimelineDefines.h"
 #include <functional>
+#include "../TimelineCore/TimelineDefines.h"
 
 class ImDataController {
 public:

@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImTimeline">
+      <UniqueIdentifier>{81a0aa3a-0bea-4813-b735-e4483d064fee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImTimeline\Core">
+      <UniqueIdentifier>{ae2f87b3-270b-4e91-ab4f-0c04b28558cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImTimeline\TimelineCore">
+      <UniqueIdentifier>{305c292b-2d35-43ab-9b99-f6f53ecf1485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImTimeline\TimelineData">
+      <UniqueIdentifier>{ed7e2841-952c-4498-932a-9d40f22aed2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImTimeline\TimelineViews">
+      <UniqueIdentifier>{48e749d7-9c6d-47f6-83b9-e472c91ee311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImTimeline\TimelineExamples">
+      <UniqueIdentifier>{127e027f-396c-4745-b564-75e4c37f7ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies">
+      <UniqueIdentifier>{0d9fd508-d777-48f6-8591-f8269f41b921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\imgui_backends">
+      <UniqueIdentifier>{aa5ebf16-6b83-49ca-9eaa-4016c8942579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\imgui">
+      <UniqueIdentifier>{e3f0417e-b909-46a3-ba85-991bf83215e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\nameof">
+      <UniqueIdentifier>{730db39a-6a1d-4ad1-92e6-a9d9ec7c18da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TimelineExample.cpp">
+      <Filter>ImTimeline\TimelineExamples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TimelineCore\TimelinePlayer.cpp">
+      <Filter>ImTimeline\TimelineCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TimelineCore\ImTimeline_internal.cpp">
+      <Filter>ImTimeline\TimelineCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TimelineData\ImDataControllerVector.cpp">
+      <Filter>ImTimeline\TimelineData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TimelineViews\DebugPlayerView.cpp">
+      <Filter>ImTimeline\TimelineViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TimelineViews\HorizontalNodeView.cpp">
+      <Filter>ImTimeline\TimelineViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\imgui\imgui.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\imgui\imgui_demo.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\imgui\imgui_draw.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\imgui\imgui_tables.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\imgui\imgui_widgets.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\imgui_backends\imgui_impl_win32.cpp">
+      <Filter>dependencies\imgui_backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\imgui_backends\imgui_impl_dx11.cpp">
+      <Filter>dependencies\imgui_backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ImTimeline.cpp">
+      <Filter>ImTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Timeline.cpp">
+      <Filter>ImTimeline</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\TimelineExample.h">
+      <Filter>ImTimeline\TimelineExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\IDGeneratorUtility.h">
+      <Filter>ImTimeline\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\ImTimelineLog.h">
+      <Filter>ImTimeline\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\ImTimelineUtility.h">
+      <Filter>ImTimeline\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\ImTimelineUtilityTime.h">
+      <Filter>ImTimeline\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\pch.h">
+      <Filter>ImTimeline\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\CoreDefines.h">
+      <Filter>ImTimeline\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TimelineCore\TimelineDefines.h">
+      <Filter>ImTimeline\TimelineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TimelineCore\TimelinePlayer.h">
+      <Filter>ImTimeline\TimelineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TimelineCore\TimelineTimeStep.h">
+      <Filter>ImTimeline\TimelineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TimelineCore\ImTimeline_internal.h">
+      <Filter>ImTimeline\TimelineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TimelineData\ImDataController.h">
+      <Filter>ImTimeline\TimelineData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TimelineData\ImDataControllerVector.h">
+      <Filter>ImTimeline\TimelineData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TimelineViews\HorizontalNodeView.h">
+      <Filter>ImTimeline\TimelineViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TimelineViews\INodeView.h">
+      <Filter>ImTimeline\TimelineViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TimelineViews\ITimelinePlayerView.h">
+      <Filter>ImTimeline\TimelineViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TimelineViews\CustomNodeTest.h">
+      <Filter>ImTimeline\TimelineViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TimelineViews\DebugPlayerView.h">
+      <Filter>ImTimeline\TimelineViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\include\nameof\nameof.hpp">
+      <Filter>dependencies\nameof</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\imgui\imstb_truetype.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\imgui\imconfig.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\imgui\imgui.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\imgui\imgui_internal.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\imgui\imstb_rectpack.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\imgui\imstb_textedit.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\imgui_backends\imgui_impl_dx11.h">
+      <Filter>dependencies\imgui_backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\imgui_backends\imgui_impl_win32.h">
+      <Filter>dependencies\imgui_backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ImTimeline.h">
+      <Filter>ImTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Timeline.h">
+      <Filter>ImTimeline</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="imgui\LICENSE.txt">
+      <Filter>dependencies\imgui</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\dependencies\imgui\.gitignore">
+      <Filter>dependencies\imgui</Filter>
+    </None>
+  </ItemGroup>
+</Project>
