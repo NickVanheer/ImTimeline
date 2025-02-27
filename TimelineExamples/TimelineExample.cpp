@@ -16,6 +16,9 @@ void ImTimeline::ShowDemoWindow()
     ImGui::RadioButton("Immediate (ImGui style)", &toggleValue, eExampleType::ExampleType_Immediate);
     ImGui::SameLine();
 
+    static bool imguiDemoWindow = false;
+    ImGui::Checkbox("Show ImGUI demo window", &imguiDemoWindow);
+
     switch (toggleValue) {
     case eExampleType::ExampleType_ObjectOriented: {
         ShowDemoWindowObjectOriented();
@@ -26,6 +29,9 @@ void ImTimeline::ShowDemoWindow()
     default:
         break;
     }
+
+    if (imguiDemoWindow)
+        ImGui::ShowDemoWindow(&imguiDemoWindow);
 }
 
 void ImTimeline::ShowDemoWindowImmediate()

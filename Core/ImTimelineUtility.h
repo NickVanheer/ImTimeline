@@ -82,7 +82,7 @@ struct Color {
         }
     }
 
-    static void sprint_f(std::string& _outString, const std::string& format, ...) 
+    static void sprint_f(std::string& _outString, const std::string format, ...) 
     { 
         va_list args; 
         va_start(args, format); 

@@ -56,7 +56,7 @@ void ImTimelineInternal::MoveNodeCommand::command_do()
 
         addCommand.mNewNode.section = mNewSectionID;
         addCommand.mNewNode.start = mNewStart;
-        addCommand.mNewNode.end = mNewStart + nodeWith;
+        addCommand.mNewNode.end = mNewStart + static_cast<s32>(round(nodeWith));
         addCommand.mNewNode.mFlags.set(eTimelineNodeFlags::TimelineNodeFlags_MovedToDifferentTimeline, true);
 
         addCommand.command_do();

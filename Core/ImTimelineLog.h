@@ -23,7 +23,7 @@ public:
         return instance;
     }
 
-    void addLog(eLogLevel aLevel, const std::string& format, ...) {
+    void addLog(eLogLevel aLevel, const std::string format, ...) {
         std::lock_guard<std::mutex> lock(mMutex);
 
          if (mLogBuffer.size() == mCapacity) {

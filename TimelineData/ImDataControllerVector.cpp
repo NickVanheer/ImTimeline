@@ -1,5 +1,6 @@
 #include "ImDataControllerVector.h"
 #include "../Core/ImTimelineLog.h"
+#include <algorithm>
 
 void VectorContainer::iterate(const std::function<void(TimelineNode&)>& func)
 {
